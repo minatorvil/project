@@ -3,7 +3,7 @@ body{
     width: 1370px;
      
 }
-section{
+.top{
     width: 100%;
     background-image: url(images/banner/banner3.png);
     background-position: center;
@@ -41,12 +41,109 @@ h1{
 .button{
 font-family: 'Work Sans', sans-serif;
 font-size: 20pt;
-font-weight: 300;
-background-color: rgb(6, 224, 195);
+font-weight: 700;
+background-color: rgb(244, 255, 253);
 width: 162px;
 height: 46px;
-margin-right: 0;
-margin-left: auto;
-padding-right: 20px;
+margin-top: 10px;
+color: #005FAC;
+text-align: center;
 padding-top: 4px;
+border-radius: 5px;
+}
+.element-right{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.content{
+    height: 725px;
+    width: 1072px;
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    margin: 124px 0 0 200px;
+    background-color: aqua;
+}
+#content-heading{
+    
+    font-size: 40pt;
+    font-weight:600;
+    margin: 0;
+}
+
+#content-article{
+    font-size: 16pt;
+    color: black;
+    margin-top: 20px;
+        
+}
+#content-list{
+    font-size: 16pt;
+    color: black;
+
+}
+.content-text{
+margin-top: 50px;
+}
+.paths{
+    font-family:'Work Sans', sans-serif;
+    
+}
+.heading-text{
+    font-size: 40pt;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 136px;
+}
+.paths-options{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.path-title{
+    font-size: 30pt;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+.path-image{
+    display: flex;
+    justify-content: center;
+
+}
+.path-text{
+    font-size: 25pt;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    margin-top: 15px;
+}
+/* contact section  */ 
+.call-now{
+    height: 300px;
+    width: 1100px;
+    font-family:'Work Sans', sans-serif; 
+    margin-left: 64px;
+    margin-top: 59px;
+    background-image: url(/images/watch.png);
+    margin-left: auto;
+    margin-right: auto;
+}
+.element-left{
+    margin-left: 30px;
+    margin-right: auto;
+}
+h3{
+    font-size: 40pt;
+    font-weight: bold;
+    margin-top:30px;
+    margin-left: 30px;
+    width: 500px;
+}
+.photo{
+    background-image: url(/images/gradient1.png);
+    height: 270px;
+    width: 100%;
+    padding-top: 30px;
 }
