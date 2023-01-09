@@ -122,9 +122,9 @@ margin-top: 50px;
 /* contact section  */ 
 .call-now{
     height: 300px;
-    width: 1100px;
+    width: 1140px;
     font-family:'Work Sans', sans-serif; 
-    margin-left: 64px;
+    
     margin-top: 59px;
     background-image: url(/images/watch.png);
     margin-left: auto;
@@ -146,4 +146,40 @@ h3{
     height: 270px;
     width: 100%;
     padding-top: 30px;
+}
+/*footer*/
+footer{
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    padding-top: 130px;
+    margin-top: 130px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.icons{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.more{
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+  
+}
+h4{
+    font-size: 45pt;
+    font-weight: bold;
+    
+}
+.flex{
+    display: flex;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#enter{
+    height:64px;
+    width: 325px;
+
 }
